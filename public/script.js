@@ -40,7 +40,7 @@
   }
 
   /* ---------- revelações ---------- */
-  const alvos = $$('.rv, .rv-img, .comodo');
+  const alvos = $$('.rv-img');
   if (still || !('IntersectionObserver' in window)) {
     alvos.forEach((el) => el.classList.add('in'));
   } else {
@@ -58,8 +58,13 @@
   const top = $('.top');
   if (!intro || !stage) return;
 
+  // o topo é claro sobre a foto da sala e ganha fundo quando a página segue
+  const topo = () => top.classList.toggle('solid', window.scrollY > intro.offsetTop + intro.offsetHeight - top.offsetHeight - 1);
+
   if (still) {
-    top.classList.add('solid');
+    topo();
+    window.addEventListener('scroll', topo, { passive: true });
+    window.addEventListener('resize', topo);
     return;
   }
 
@@ -124,7 +129,7 @@
   const aoRolar = () => {
     const y = window.scrollY - introTop;
     alvo = clamp01(y / range);
-    top.classList.toggle('solid', y > range + vh * 0.55);
+    topo();
     if (!raf) raf = requestAnimationFrame(quadro);
   };
 

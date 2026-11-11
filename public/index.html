@@ -5,7 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <title>Jessica Albuquerque | Corretora de imóveis de alto padrão em Sorocaba</title>
 <meta name="description" content="Jessica Albuquerque, corretora de imóveis de alto padrão em Sorocaba. Atendimento exclusivo e consultivo para comprar, vender e avaliar, do primeiro contato à entrega das chaves.">
-<meta name="theme-color" content="#0A0B2A">
+<meta name="theme-color" content="#1C1917">
 <meta property="og:type" content="website">
 <meta property="og:locale" content="pt_BR">
 <meta property="og:title" content="Jessica Albuquerque | Imóveis de alto padrão em Sorocaba">
@@ -19,10 +19,9 @@
 <link rel="canonical" href="https://jessica-albuquerque.vercel.app/">
 <link rel="icon" href="favicon.svg" type="image/svg+xml">
 <link rel="preload" as="image" href="assets/mansao.webp" fetchpriority="high">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preload" as="font" type="font/woff2" href="assets/fonts/poppins-300.woff2" crossorigin>
+<link rel="preload" as="font" type="font/woff2" href="assets/fonts/poppins-400.woff2" crossorigin>
 <link rel="preconnect" href="https://images.unsplash.com">
-<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;1,300&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="styles.css">
 <script>document.documentElement.classList.add('js');if(matchMedia('(prefers-reduced-motion: reduce)').matches)document.documentElement.classList.add('still')</script>
 <script type="application/ld+json">
@@ -37,11 +36,11 @@
   <a class="wordmark" href="#inicio">Jessica Albuquerque</a>
   <nav class="nav" aria-label="Principal">
     <a href="#corretora">A corretora</a>
+    <a href="#servicos">Serviços</a>
     <a href="#metodo">Método</a>
     <a href="#imoveis">Imóveis</a>
-    <a href="#contato">Contato</a>
   </nav>
-  <a class="btn btn--sm" data-wa href="https://wa.me/5515900000000?text=Ol%C3%A1%2C%20Jessica.%20Vim%20pelo%20site%20e%20gostaria%20de%20conversar.">Conversar</a>
+  <a class="btn btn--ghost" data-wa href="https://wa.me/5515900000000?text=Ol%C3%A1%2C%20Jessica.%20Vim%20pelo%20site%20e%20gostaria%20de%20conversar.">Conversar</a>
 </header>
 
 <main>
@@ -76,16 +75,21 @@
 
     <div class="flood" aria-hidden="true"></div>
 
+    <!-- dentro da casa -->
     <div class="hero">
-      <div class="hero__arch" aria-hidden="true"></div>
+      <img class="hero__img" alt="Sala de estar ampla, com sofá, mesa de madeira e janelas voltadas para o jardim"
+           src="https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?auto=format&fit=crop&w=1600&q=74"
+           srcset="https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?auto=format&fit=crop&w=900&q=70 900w, https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?auto=format&fit=crop&w=1600&q=74 1600w, https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?auto=format&fit=crop&w=2400&q=74 2400w"
+           sizes="(orientation: portrait) 190vh, 100vw" width="1600" height="842" decoding="async">
+      <div class="hero__shade" aria-hidden="true"></div>
       <div class="hero__inner">
         <h1>Primeiro eu escuto.<br>Depois, abro a porta&nbsp;certa.</h1>
         <p class="hero__lede">Sou Jessica Albuquerque, corretora de imóveis de alto padrão em Sorocaba. Meu atendimento é exclusivo e consultivo: entendo o seu momento antes de apresentar qualquer endereço.</p>
         <div class="hero__cta">
-          <a class="btn" data-wa href="https://wa.me/5515900000000?text=Ol%C3%A1%2C%20Jessica.%20Vim%20pelo%20site%20e%20gostaria%20de%20conversar.">Iniciar uma conversa privada
-            <svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true"><path d="M4 12h15M13 6l6 6-6 6" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          <a class="btn btn--light" data-wa href="https://wa.me/5515900000000?text=Ol%C3%A1%2C%20Jessica.%20Vim%20pelo%20site%20e%20gostaria%20de%20conversar.">Iniciar uma conversa privada
+            <svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true"><path d="M4 12h15M13 6l6 6-6 6" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="square"/></svg>
           </a>
-          <a class="textlink" href="#metodo">Como eu trabalho</a>
+          <a class="textlink textlink--dark" href="#metodo">Como eu trabalho</a>
         </div>
       </div>
     </div>
@@ -97,22 +101,23 @@
 
 <!-- ============ A CORRETORA ============ -->
 <section class="sobre" id="corretora">
-  <div class="wrap sobre__grid">
+  <div class="wrap grade">
+    <h2 class="sobre__lead">Comprar ou vender um imóvel de alto padrão é uma decisão de patrimônio e de vida. Por isso eu não trabalho com volume.</h2>
+
     <figure class="sobre__fig">
-      <span class="arch rv-img">
-        <img src="https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?auto=format&fit=crop&w=900&q=72"
-             srcset="https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?auto=format&fit=crop&w=600&q=70 600w, https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?auto=format&fit=crop&w=900&q=72 900w, https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?auto=format&fit=crop&w=1300&q=72 1300w"
-             sizes="(min-width: 900px) 420px, 86vw" width="900" height="1200" loading="lazy" decoding="async"
-             alt="Sala de estar ampla e iluminada, integrada a um jardim por grandes portas de vidro">
+      <span class="ph rv-img">
+        <img src="https://images.unsplash.com/photo-1600210492486-724fe5c67fb0?auto=format&fit=crop&w=900&h=1125&q=72"
+             srcset="https://images.unsplash.com/photo-1600210492486-724fe5c67fb0?auto=format&fit=crop&w=600&h=750&q=70 600w, https://images.unsplash.com/photo-1600210492486-724fe5c67fb0?auto=format&fit=crop&w=900&h=1125&q=72 900w"
+             sizes="(min-width: 900px) 34vw, 88vw" width="900" height="1125" loading="lazy" decoding="async"
+             alt="Sala de estar com sofá de couro, poltronas claras e plantas junto a uma janela alta">
       </span>
       <figcaption>Imagem ilustrativa</figcaption>
     </figure>
-    <div class="sobre__text">
-      <h2 class="rv">Uma corretora.<br>Uma relação inteira.</h2>
-      <p class="rv">Comprar ou vender um imóvel de alto padrão é uma decisão de patrimônio e de vida. Por isso eu não trabalho com volume: cada cliente fala comigo, do primeiro contato à entrega das chaves.</p>
-      <p class="rv">Meu papel é consultivo. Antes de abrir qualquer porta, eu escuto: rotina, família, planos, o que não pode faltar e o que você não quer de jeito nenhum. Só então apresento os imóveis que fazem sentido.</p>
-      <dl class="pilares rv">
-        <div><dt>Exclusivo</dt><dd>Atendimento pessoal, com hora marcada e sem pressa.</dd></div>
+
+    <div class="sobre__body">
+      <p>Cada cliente fala comigo, do primeiro contato à entrega das chaves. Antes de abrir qualquer porta, eu escuto: rotina, família, planos, o que não pode faltar e o que você não quer de jeito nenhum. Só então apresento os imóveis que fazem sentido.</p>
+      <dl class="principios">
+        <div><dt>Exclusivo</dt><dd>Atendimento pessoal e sem pressa, do começo ao fim.</dd></div>
         <div><dt>Consultivo</dt><dd>Orientação sobre região, valor e momento antes de qualquer decisão.</dd></div>
         <div><dt>Discreto</dt><dd>Sigilo sobre quem compra, quem vende e cada negociação.</dd></div>
       </dl>
@@ -120,62 +125,63 @@
   </div>
 </section>
 
-<!-- ============ SERVIÇOS: a sala acesa ============ -->
-<section class="luz" aria-labelledby="luz-t">
+<!-- ============ SERVIÇOS ============ -->
+<section class="servicos" id="servicos">
   <div class="wrap">
-    <h2 id="luz-t">Para cada momento, a mesma atenção.</h2>
-    <ul class="luz__lista">
+    <h2>Para cada momento, a mesma atenção.</h2>
+    <ul class="indice">
       <li>
-        <h3>Comprar</h3>
-        <p>Busca dirigida e curadoria de imóveis que combinam com o seu perfil, com visitas privadas e acompanhamento em cada etapa.</p>
+        <a class="linha" data-wa href="https://wa.me/5515900000000?text=Ol%C3%A1%2C%20Jessica.%20Quero%20comprar%20um%20im%C3%B3vel%20de%20alto%20padr%C3%A3o.">
+          <h3>Comprar</h3>
+          <p>Busca dirigida e curadoria de imóveis que combinam com o seu perfil, com visitas privadas e acompanhamento em cada etapa.</p>
+          <span class="linha__ir">Conversar <svg viewBox="0 0 24 24" width="20" height="20" aria-hidden="true"><path d="M4 12h15M13 6l6 6-6 6" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="square"/></svg></span>
+        </a>
       </li>
       <li>
-        <h3>Vender</h3>
-        <p>Apresentação à altura do imóvel e abordagem reservada, sem exposição desnecessária do seu patrimônio.</p>
+        <a class="linha" data-wa href="https://wa.me/5515900000000?text=Ol%C3%A1%2C%20Jessica.%20Quero%20vender%20um%20im%C3%B3vel%20de%20alto%20padr%C3%A3o.">
+          <h3>Vender</h3>
+          <p>Apresentação à altura do imóvel e abordagem reservada, sem exposição desnecessária do seu patrimônio.</p>
+          <span class="linha__ir">Conversar <svg viewBox="0 0 24 24" width="20" height="20" aria-hidden="true"><path d="M4 12h15M13 6l6 6-6 6" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="square"/></svg></span>
+        </a>
       </li>
       <li>
-        <h3>Avaliar</h3>
-        <p>Leitura de valor a partir da região e do momento de mercado, para você decidir com segurança.</p>
+        <a class="linha" data-wa href="https://wa.me/5515900000000?text=Ol%C3%A1%2C%20Jessica.%20Quero%20avaliar%20um%20im%C3%B3vel.">
+          <h3>Avaliar</h3>
+          <p>Leitura de valor a partir da região e do momento de mercado, para você decidir com segurança.</p>
+          <span class="linha__ir">Conversar <svg viewBox="0 0 24 24" width="20" height="20" aria-hidden="true"><path d="M4 12h15M13 6l6 6-6 6" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="square"/></svg></span>
+        </a>
       </li>
     </ul>
   </div>
 </section>
 
-<!-- ============ MÉTODO: os cômodos ============ -->
+<!-- ============ MÉTODO ============ -->
 <section class="metodo" id="metodo">
-  <div class="wrap metodo__grid">
+  <div class="wrap">
     <div class="metodo__head">
-      <h2>Do portão às chaves, em quatro cômodos.</h2>
-      <p>Um atendimento consultivo tem começo, meio e fim. Cada etapa acontece no seu tempo, e em todas elas você fala diretamente comigo.</p>
+      <h2>Do primeiro contato às chaves.</h2>
+      <p>Um atendimento consultivo tem começo, meio e fim. Em todas as etapas você fala diretamente comigo.</p>
     </div>
-    <ol class="comodos">
-      <li class="comodo">
-        <svg class="janela" viewBox="0 0 44 66" aria-hidden="true"><path class="vidro" d="M5 63V22a17 17 0 0 1 34 0v41Z"/><path class="caixilho" d="M5 63V22a17 17 0 0 1 34 0v41ZM22 5v58M5 34h34"/></svg>
-        <div>
-          <h3>Hall <span>A primeira conversa</span></h3>
-          <p>Um encontro reservado, presencial ou por vídeo, para entender o seu momento, o seu estilo de vida e o que você espera do imóvel.</p>
-        </div>
+    <ol class="passos">
+      <li>
+        <span class="passo__n" aria-hidden="true">01</span>
+        <h3>Escuta</h3>
+        <p>Um encontro reservado para entender o seu momento, o seu estilo de vida e o que você espera do imóvel.</p>
       </li>
-      <li class="comodo">
-        <svg class="janela" viewBox="0 0 44 66" aria-hidden="true"><path class="vidro" d="M5 63V22a17 17 0 0 1 34 0v41Z"/><path class="caixilho" d="M5 63V22a17 17 0 0 1 34 0v41ZM22 5v58M5 34h34"/></svg>
-        <div>
-          <h3>Biblioteca <span>Curadoria</span></h3>
-          <p>Seleciono poucos imóveis, só os que fazem sentido. Cada opção chega com contexto: região, pontos fortes e pontos de atenção.</p>
-        </div>
+      <li>
+        <span class="passo__n" aria-hidden="true">02</span>
+        <h3>Curadoria</h3>
+        <p>Seleciono poucos imóveis, só os que fazem sentido. Cada opção chega com contexto: região, pontos fortes e pontos de atenção.</p>
       </li>
-      <li class="comodo">
-        <svg class="janela" viewBox="0 0 44 66" aria-hidden="true"><path class="vidro" d="M5 63V22a17 17 0 0 1 34 0v41Z"/><path class="caixilho" d="M5 63V22a17 17 0 0 1 34 0v41ZM22 5v58M5 34h34"/></svg>
-        <div>
-          <h3>Terraço <span>Visitas privadas</span></h3>
-          <p>Visitas com hora marcada, no seu ritmo, e comigo ao seu lado para olhar o que as fotos não mostram.</p>
-        </div>
+      <li>
+        <span class="passo__n" aria-hidden="true">03</span>
+        <h3>Visitas</h3>
+        <p>Visitas reservadas, no seu ritmo, e comigo ao seu lado para olhar o que as fotos não mostram.</p>
       </li>
-      <li class="comodo">
-        <svg class="janela" viewBox="0 0 44 66" aria-hidden="true"><path class="vidro" d="M5 63V22a17 17 0 0 1 34 0v41Z"/><path class="caixilho" d="M5 63V22a17 17 0 0 1 34 0v41ZM22 5v58M5 34h34"/></svg>
-        <div>
-          <h3>Escritório <span>Negociação e chaves</span></h3>
-          <p>Acompanho proposta, documentação e fechamento até a entrega das chaves, com interlocução direta e sigilo.</p>
-        </div>
+      <li>
+        <span class="passo__n" aria-hidden="true">04</span>
+        <h3>Negociação e chaves</h3>
+        <p>Acompanho proposta, documentação e fechamento até a entrega das chaves, com interlocução direta e sigilo.</p>
       </li>
     </ol>
   </div>
@@ -185,51 +191,49 @@
 <section class="imoveis" id="imoveis">
   <div class="wrap">
     <div class="imoveis__head">
-      <h2 class="rv">Casas à altura de quem vai morar nelas.</h2>
-      <p class="rv">Atuo com imóveis de alto padrão em Sorocaba e região: Campolim, Jardim Europa, Chácara Ondina e os condomínios fechados da cidade. Os perfis abaixo são ilustrativos. As oportunidades reais eu apresento em conversa, com a reserva que elas pedem.</p>
+      <h2>Casas à altura de quem vai morar nelas.</h2>
+      <p>Atuo com imóveis de alto padrão em Sorocaba e região. Os perfis abaixo são ilustrativos. As oportunidades reais eu apresento em conversa, com a reserva que elas pedem.</p>
     </div>
-    <ul class="perfis">
-      <li class="perfil">
+    <ul class="galeria">
+      <li class="perfil perfil--a">
         <a data-wa href="https://wa.me/5515900000000?text=Ol%C3%A1%2C%20Jessica.%20Tenho%20interesse%20em%20casas%20em%20condom%C3%ADnio%20fechado.">
-          <span class="arch rv-img"><img src="https://images.unsplash.com/photo-1613490493576-7fde63acd811?auto=format&fit=crop&w=800&q=72" srcset="https://images.unsplash.com/photo-1613490493576-7fde63acd811?auto=format&fit=crop&w=500&q=70 500w, https://images.unsplash.com/photo-1613490493576-7fde63acd811?auto=format&fit=crop&w=800&q=72 800w, https://images.unsplash.com/photo-1613490493576-7fde63acd811?auto=format&fit=crop&w=1200&q=72 1200w" sizes="(min-width: 900px) 30vw, 86vw" width="800" height="1000" loading="lazy" decoding="async" alt="Casa contemporânea de dois pavimentos com forro de madeira e piscina"></span>
+          <span class="ph rv-img"><img src="https://images.unsplash.com/photo-1613490493576-7fde63acd811?auto=format&fit=crop&w=1400&h=875&q=72" srcset="https://images.unsplash.com/photo-1613490493576-7fde63acd811?auto=format&fit=crop&w=800&h=500&q=70 800w, https://images.unsplash.com/photo-1613490493576-7fde63acd811?auto=format&fit=crop&w=1400&h=875&q=72 1400w" sizes="(min-width: 900px) 56vw, 92vw" width="1400" height="875" loading="lazy" decoding="async" alt="Casa contemporânea de dois pavimentos com forro de madeira e piscina"></span>
           <h3>Casas em condomínio fechado</h3>
           <p>Privacidade, segurança e espaço para a família.</p>
           <span class="perfil__cta">Conversar sobre este perfil</span>
         </a>
       </li>
-      <li class="perfil perfil--alto">
+      <li class="perfil perfil--b">
         <a data-wa href="https://wa.me/5515900000000?text=Ol%C3%A1%2C%20Jessica.%20Tenho%20interesse%20em%20resid%C3%AAncias%20contempor%C3%A2neas.">
-          <span class="arch rv-img"><img src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=800&q=72" srcset="https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=500&q=70 500w, https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=800&q=72 800w, https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=1200&q=72 1200w" sizes="(min-width: 900px) 30vw, 86vw" width="800" height="1100" loading="lazy" decoding="async" alt="Residência contemporânea ao anoitecer, com as luzes internas acesas e um grande jardim"></span>
+          <span class="ph rv-img"><img src="https://images.unsplash.com/photo-1600585154526-990dced4db0d?auto=format&fit=crop&w=900&h=1125&q=72" srcset="https://images.unsplash.com/photo-1600585154526-990dced4db0d?auto=format&fit=crop&w=600&h=750&q=70 600w, https://images.unsplash.com/photo-1600585154526-990dced4db0d?auto=format&fit=crop&w=900&h=1125&q=72 900w" sizes="(min-width: 900px) 30vw, 92vw" width="900" height="1125" loading="lazy" decoding="async" alt="Residência contemporânea ao anoitecer, com fachada escura, painel de madeira e a entrada iluminada"></span>
           <h3>Residências contemporâneas</h3>
           <p>Arquitetura autoral, integração e luz natural.</p>
           <span class="perfil__cta">Conversar sobre este perfil</span>
         </a>
       </li>
-      <li class="perfil">
+      <li class="perfil perfil--c">
         <a data-wa href="https://wa.me/5515900000000?text=Ol%C3%A1%2C%20Jessica.%20Tenho%20interesse%20em%20casas%20com%20lazer%20completo.">
-          <span class="arch rv-img"><img src="https://images.unsplash.com/photo-1613977257363-707ba9348227?auto=format&fit=crop&w=800&q=72" srcset="https://images.unsplash.com/photo-1613977257363-707ba9348227?auto=format&fit=crop&w=500&q=70 500w, https://images.unsplash.com/photo-1613977257363-707ba9348227?auto=format&fit=crop&w=800&q=72 800w, https://images.unsplash.com/photo-1613977257363-707ba9348227?auto=format&fit=crop&w=1200&q=72 1200w" sizes="(min-width: 900px) 30vw, 86vw" width="800" height="1000" loading="lazy" decoding="async" alt="Casa branca de linhas retas com varanda, espreguiçadeiras e piscina"></span>
+          <span class="ph rv-img"><img src="https://images.unsplash.com/photo-1613977257363-707ba9348227?auto=format&fit=crop&w=1400&h=875&q=72" srcset="https://images.unsplash.com/photo-1613977257363-707ba9348227?auto=format&fit=crop&w=800&h=500&q=70 800w, https://images.unsplash.com/photo-1613977257363-707ba9348227?auto=format&fit=crop&w=1400&h=875&q=72 1400w" sizes="(min-width: 900px) 62vw, 92vw" width="1400" height="875" loading="lazy" decoding="async" alt="Casa branca de linhas retas com varanda, espreguiçadeiras e piscina"></span>
           <h3>Casas com lazer completo</h3>
           <p>Piscina, área gourmet e jardins para receber.</p>
           <span class="perfil__cta">Conversar sobre este perfil</span>
         </a>
       </li>
+      <li class="galeria__nota">Imagens ilustrativas. Não representam imóveis à venda.</li>
     </ul>
-    <p class="nota">Imagens ilustrativas. Não representam imóveis à venda.</p>
   </div>
 </section>
 
 <!-- ============ CONTATO ============ -->
 <section class="contato" id="contato">
-  <div class="wrap contato__grid">
+  <div class="wrap grade">
     <div class="contato__text">
       <h2>A porta está aberta.</h2>
       <p>Conte em poucas linhas o que você procura. A mensagem chega direto no meu WhatsApp e sou eu quem responde.</p>
       <p class="contato__alt">Prefere ir direto ao ponto? <a class="textlink textlink--dark" data-wa href="https://wa.me/5515900000000?text=Ol%C3%A1%2C%20Jessica.%20Vim%20pelo%20site%20e%20gostaria%20de%20conversar.">Abrir o WhatsApp</a></p>
-      <p class="contato__local">Sorocaba e região, São Paulo<br>Atendimento com hora marcada</p>
     </div>
 
-    <form class="porta" id="form" novalidate>
-      <p class="porta__mono" aria-hidden="true">JA</p>
+    <form class="form" id="form" novalidate>
       <div class="campo">
         <label for="f-nome">Seu nome</label>
         <input id="f-nome" name="nome" type="text" autocomplete="name" required aria-describedby="f-nome-erro">
@@ -249,9 +253,9 @@
         <textarea id="f-msg" name="mensagem" rows="3" placeholder="Região, tipo de imóvel, prazo..."></textarea>
       </div>
       <button class="btn btn--full" type="submit">Enviar pelo WhatsApp
-        <svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true"><path d="M4 12h15M13 6l6 6-6 6" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        <svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true"><path d="M4 12h15M13 6l6 6-6 6" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="square"/></svg>
       </button>
-      <p class="porta__nota">Ao enviar, o WhatsApp abre com a sua mensagem pronta. Nada é armazenado neste site.</p>
+      <p class="form__nota">Ao enviar, o WhatsApp abre com a sua mensagem pronta. Nada é armazenado neste site.</p>
     </form>
   </div>
 </section>
@@ -263,11 +267,12 @@
     <p class="rodape__nome">Jessica Albuquerque</p>
     <nav class="rodape__nav" aria-label="Rodapé">
       <a href="#corretora">A corretora</a>
+      <a href="#servicos">Serviços</a>
       <a href="#metodo">Método</a>
       <a href="#imoveis">Imóveis</a>
       <a href="#contato">Contato</a>
     </nav>
-    <p class="rodape__legal">Corretora de imóveis · CRECI-SP nº <span class="pendente">[a informar]</span><br>Sorocaba, São Paulo · © 2026 Jessica Albuquerque</p>
+    <p class="rodape__legal">Corretora de imóveis em Sorocaba, São Paulo · CRECI-SP nº <span class="pendente">[a informar]</span> · WhatsApp <span class="pendente">[a informar]</span><br>© 2026 Jessica Albuquerque</p>
   </div>
 </footer>
 
