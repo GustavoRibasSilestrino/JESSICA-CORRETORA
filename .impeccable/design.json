@@ -1,0 +1,192 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-11-11T20:30:00.000Z",
+  "title": "Design System: Jessica Albuquerque",
+  "extensions": {
+    "colorMeta": {
+      "ink": { "role": "neutral", "displayName": "Coffee Black", "canonical": "#1C1917", "cssVar": "--ink", "tonalRamp": ["oklch(15% 0.006 60)", "oklch(26% 0.008 60)", "oklch(38% 0.009 60)", "oklch(50% 0.01 60)", "oklch(62% 0.009 60)", "oklch(74% 0.008 60)", "oklch(86% 0.006 60)", "oklch(95% 0.003 60)"] },
+      "ink-2": { "role": "neutral", "displayName": "Coffee Grey", "canonical": "#44403C", "cssVar": "--ink-2", "tonalRamp": ["oklch(15% 0.006 65)", "oklch(26% 0.008 65)", "oklch(37% 0.009 65)", "oklch(49% 0.01 65)", "oklch(61% 0.009 65)", "oklch(73% 0.008 65)", "oklch(85% 0.006 65)", "oklch(95% 0.003 65)"] },
+      "mute": { "role": "neutral", "displayName": "Stone Mute", "canonical": "#6B645D", "cssVar": "--mute", "tonalRamp": ["oklch(15% 0.008 70)", "oklch(27% 0.011 70)", "oklch(39% 0.013 70)", "oklch(51% 0.014 70)", "oklch(63% 0.013 70)", "oklch(75% 0.011 70)", "oklch(86% 0.008 70)", "oklch(95% 0.004 70)"] },
+      "paper": { "role": "neutral", "displayName": "Warm White", "canonical": "#FAFAF9", "cssVar": "--paper", "tonalRamp": ["oklch(15% 0.003 100)", "oklch(28% 0.004 100)", "oklch(42% 0.004 100)", "oklch(56% 0.004 100)", "oklch(70% 0.004 100)", "oklch(82% 0.003 100)", "oklch(91% 0.003 100)", "oklch(98% 0.002 100)"] },
+      "stone": { "role": "neutral", "displayName": "Facade Stone", "canonical": "#F1EEE9", "cssVar": "--stone", "tonalRamp": ["oklch(15% 0.006 80)", "oklch(28% 0.008 80)", "oklch(42% 0.009 80)", "oklch(56% 0.01 80)", "oklch(70% 0.009 80)", "oklch(82% 0.008 80)", "oklch(90% 0.007 80)", "oklch(95% 0.007 80)"] },
+      "line": { "role": "neutral", "displayName": "Hairline", "canonical": "#D6D3D1", "cssVar": "--line", "tonalRamp": ["oklch(15% 0.004 60)", "oklch(28% 0.005 60)", "oklch(42% 0.005 60)", "oklch(56% 0.005 60)", "oklch(70% 0.005 60)", "oklch(80% 0.005 60)", "oklch(87% 0.004 60)", "oklch(95% 0.003 60)"] },
+      "line-hover": { "role": "neutral", "displayName": "Hairline Hover", "canonical": "#A8A29E", "tonalRamp": ["oklch(15% 0.006 60)", "oklch(28% 0.008 60)", "oklch(41% 0.009 60)", "oklch(54% 0.009 60)", "oklch(64% 0.009 60)", "oklch(72% 0.008 60)", "oklch(84% 0.006 60)", "oklch(95% 0.003 60)"] },
+      "brass": { "role": "primary", "displayName": "Brass", "canonical": "#955A06", "cssVar": "--brass", "tonalRamp": ["oklch(15% 0.035 70)", "oklch(27% 0.065 70)", "oklch(39% 0.09 70)", "oklch(51% 0.115 70)", "oklch(63% 0.12 72)", "oklch(75% 0.11 78)", "oklch(86% 0.075 82)", "oklch(95% 0.03 85)"] },
+      "brass-hi": { "role": "primary", "displayName": "Lit-Window Brass", "canonical": "#E4B869", "cssVar": "--brass-hi", "tonalRamp": ["oklch(15% 0.03 80)", "oklch(28% 0.055 80)", "oklch(42% 0.08 80)", "oklch(56% 0.1 80)", "oklch(69% 0.11 82)", "oklch(80% 0.105 84)", "oklch(89% 0.07 86)", "oklch(95% 0.035 88)"] },
+      "on-dark": { "role": "neutral", "displayName": "Warm White on Dark", "canonical": "#FAFAF9", "cssVar": "--on-dark", "tonalRamp": ["oklch(15% 0.003 100)", "oklch(28% 0.004 100)", "oklch(42% 0.004 100)", "oklch(56% 0.004 100)", "oklch(70% 0.004 100)", "oklch(82% 0.003 100)", "oklch(91% 0.003 100)", "oklch(98% 0.002 100)"] },
+      "on-dark-2": { "role": "neutral", "displayName": "Dimmed Warm White", "canonical": "#CFC9C2", "cssVar": "--on-dark-2", "tonalRamp": ["oklch(15% 0.008 75)", "oklch(28% 0.01 75)", "oklch(42% 0.012 75)", "oklch(56% 0.012 75)", "oklch(70% 0.012 75)", "oklch(83% 0.011 75)", "oklch(90% 0.008 75)", "oklch(95% 0.005 75)"] },
+      "night": { "role": "neutral", "displayName": "Dusk Sky", "canonical": "#0A0B2A", "cssVar": "--night", "tonalRamp": ["oklch(16% 0.06 275)", "oklch(27% 0.1 275)", "oklch(39% 0.12 275)", "oklch(51% 0.12 275)", "oklch(63% 0.1 275)", "oklch(75% 0.075 275)", "oklch(86% 0.045 275)", "oklch(95% 0.018 275)"] },
+      "field": { "role": "neutral", "displayName": "Field White", "canonical": "#FFFFFF", "tonalRamp": ["oklch(15% 0 0)", "oklch(28% 0 0)", "oklch(42% 0 0)", "oklch(56% 0 0)", "oklch(70% 0 0)", "oklch(82% 0 0)", "oklch(92% 0 0)", "oklch(100% 0 0)"] },
+      "error": { "role": "neutral", "displayName": "Error Red", "canonical": "#9B1C1C", "tonalRamp": ["oklch(15% 0.05 27)", "oklch(27% 0.1 27)", "oklch(39% 0.15 27)", "oklch(45% 0.165 27)", "oklch(58% 0.16 27)", "oklch(72% 0.11 27)", "oklch(86% 0.055 27)", "oklch(95% 0.02 27)"] }
+    },
+    "typographyMeta": {
+      "display": { "displayName": "Display", "purpose": "Hero headline; the same voice sets the name over the entrance sky, the closing contact headline and the service names." },
+      "headline": { "displayName": "Headline", "purpose": "Section headings, balanced, often capped near 17ch." },
+      "statement": { "displayName": "Statement", "purpose": "The long opening sentence of the broker section, set as a heading." },
+      "title": { "displayName": "Title", "purpose": "Step names and property-profile names." },
+      "body": { "displayName": "Body", "purpose": "Running text, capped between 42ch and 58ch." },
+      "body-small": { "displayName": "Body Small", "purpose": "Step and profile descriptions, chips." },
+      "caption": { "displayName": "Caption", "purpose": "Figure captions, illustrative-image note, form notes, legal line; coloured mute." },
+      "label": { "displayName": "Label", "purpose": "Uppercase naming text at +0.18em to +0.26em: principle terms, field labels, row and profile actions, skip and scroll cues." },
+      "wordmark": { "displayName": "Wordmark", "purpose": "The name in the top bar and footer; there is no logo." },
+      "button": { "displayName": "Button", "purpose": "Button labels." },
+      "numeral": { "displayName": "Numeral", "purpose": "Step numbers 01 to 04, tabular figures, lit-window brass on coffee-black." }
+    },
+    "fonts": [
+      { "family": "Poppins", "source": "self-hosted woff2, SIL Open Font License", "files": ["public/assets/fonts/poppins-300.woff2", "public/assets/fonts/poppins-400.woff2", "public/assets/fonts/poppins-500.woff2", "public/assets/fonts/poppins-600.woff2"], "weightsUsed": [300, 400, 500], "note": "Pinned by the owner as the only typeface. 600 is declared but no rule uses it. 300 and 400 are preloaded; font-display: swap." }
+    ],
+    "shadows": [],
+    "motion": [
+      { "name": "ease", "value": "cubic-bezier(.16, 1, .3, 1)", "purpose": "The one easing curve (--ease): arrow slides, underline shifts, row shift, top bar, photograph unveil." },
+      { "name": "state-colour", "value": "0.2s to 0.3s", "purpose": "Colour, background and border changes on hover and focus (default easing)." },
+      { "name": "arrow-advance", "value": "transform 0.35s to 0.45s var(--ease); translateX(5px) in buttons, translateX(8px) in service rows", "purpose": "Confirms intent on hover." },
+      { "name": "photo-unveil", "value": "clip-path inset(0 0 100% 0) to inset(0) over 1.3s, scale 1.1 to 1 over 1.7s, var(--ease)", "purpose": "Photographs unveil top to bottom once, when 20% is in view (IntersectionObserver, rootMargin 0 0 -6% 0)." },
+      { "name": "photo-hover", "value": "transform scale(1.04) over 1.2s var(--ease)", "purpose": "Linked photographs on hover." },
+      { "name": "topbar-in", "value": "opacity and translateY(-14px) to 0 over 0.6s var(--ease)", "purpose": "The top bar appears once scroll progress passes 0.955 of the entrance." },
+      { "name": "scroll-cue", "value": "@keyframes cue: scaleY 0 to 1 then fade, 2.4s var(--ease) infinite", "purpose": "The 1px by 40px lit-brass line under 'Role para entrar'. The only looping animation." },
+      { "name": "entrance-length", "value": "420vh sticky stage", "purpose": "Scroll distance of the arrival sequence." },
+      { "name": "entrance-smoothing", "value": "per frame: current += (target - current) * 0.16, snap below 0.0004", "purpose": "Scroll progress is eased toward its target with requestAnimationFrame, not applied raw." },
+      { "name": "entrance-phases", "value": "approach 0 to 0.62; door opens 0.63 to 0.76 (rotateY up to 86deg); light floods 0.86 to 0.92; hero fades in 0.90 to 0.96; stage hidden after 0.93", "purpose": "Progress thresholds written to --p, --s, --open, --in, --in2 on the stage." },
+      { "name": "entrance-captions", "value": "windows 0.10 to 0.27, 0.31 to 0.48, 0.53 to 0.675; fade and 14px rise", "purpose": "Three captions pass during the approach." },
+      { "name": "entrance-camera", "value": "transform-origin 49.67% 58.71% (the door); door pinned at 62% of viewport height; photo width max(100vw, 102svh)", "purpose": "The photograph scales from the door as a dolly; scale follows 1 / (1 - u) for a constant walking pace." },
+      { "name": "reduced-motion", "value": "html.still or no JS: stage removed, hero static as first screen, photographs shown, animations off, transitions 0.01ms", "purpose": "Complete static equivalent." }
+    ],
+    "breakpoints": [
+      { "name": "steps-two-up", "value": "max-width: 1023px" },
+      { "name": "single-column", "value": "max-width: 899px" },
+      { "name": "phone", "value": "max-width: 599px" }
+    ],
+    "imagery": [
+      { "path": "public/assets/mansao.webp", "size": "1672x941", "origin": "Supplied by the site owner on 2026-11-11; provenance sidecar public/assets/mansao.webp.json. Not generated, retouched or resized in the build.", "use": "Entrance stage, door leaf crop, contact section background. Not a listing." },
+      { "path": "public/assets/og.jpg", "size": "1200x630", "origin": "Crop of mansao.webp.", "use": "Link preview image." },
+      { "unsplashId": "photo-1618221195710-dd6b41faaea6", "use": "Hero living room", "status": "placeholder, hotlinked, to be replaced with real material" },
+      { "unsplashId": "photo-1600210492486-724fe5c67fb0", "use": "Broker section figure (4:5)", "status": "placeholder, hotlinked, to be replaced with real material" },
+      { "unsplashId": "photo-1613490493576-7fde63acd811", "use": "Profile: casas em condomínio fechado (16:10)", "status": "placeholder, hotlinked, to be replaced with real material" },
+      { "unsplashId": "photo-1600585154526-990dced4db0d", "use": "Profile: residências contemporâneas (4:5)", "status": "placeholder, hotlinked, to be replaced with real material" },
+      { "unsplashId": "photo-1613977257363-707ba9348227", "use": "Profile: casas com lazer completo (16:10)", "status": "placeholder, hotlinked, to be replaced with real material" }
+    ],
+    "unresolved": [
+      { "item": "WhatsApp number", "state": "Footer shows a visible '[a informar]' marker; links use the stand-in 5515900000000 from body[data-whatsapp], the single place to change it." },
+      { "item": "CRECI", "state": "Footer shows a visible '[a informar]' marker." }
+    ]
+  },
+  "components": [
+    {
+      "name": "Primary Button",
+      "kind": "button",
+      "refersTo": "button-primary",
+      "description": "Main action on light surfaces; the form submit.",
+      "html": "<button class=\"ds-btn\">Enviar pelo WhatsApp <svg viewBox=\"0 0 24 24\" width=\"18\" height=\"18\" aria-hidden=\"true\"><path d=\"M4 12h15M13 6l6 6-6 6\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\" stroke-linecap=\"square\"/></svg></button>",
+      "css": ".ds-btn { display: inline-flex; align-items: center; justify-content: center; gap: 14px; min-height: 56px; padding: 0 30px; background: var(--ink, #1C1917); color: var(--paper, #FAFAF9); font: 500 .95rem/1 var(--font, 'Poppins', 'Segoe UI', system-ui, sans-serif); letter-spacing: .01em; border: 1px solid var(--ink, #1C1917); border-radius: 0; cursor: pointer; transition: background .25s, color .25s, border-color .25s; } .ds-btn:hover { background: var(--brass, #955A06); border-color: var(--brass, #955A06); color: #fff; } .ds-btn svg { flex: none; transition: transform .35s cubic-bezier(.16, 1, .3, 1); } .ds-btn:hover svg { transform: translateX(5px); } .ds-btn:focus-visible { outline: 2px solid var(--ink, #1C1917); outline-offset: 3px; }"
+    },
+    {
+      "name": "Light Button",
+      "kind": "button",
+      "refersTo": "button-light",
+      "description": "Main action on dark surfaces and over photography (hero).",
+      "html": "<div class=\"ds-dark\"><a class=\"ds-btn-light\" href=\"#\">Iniciar uma conversa privada <svg viewBox=\"0 0 24 24\" width=\"18\" height=\"18\" aria-hidden=\"true\"><path d=\"M4 12h15M13 6l6 6-6 6\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\" stroke-linecap=\"square\"/></svg></a></div>",
+      "css": ".ds-dark { background: var(--ink, #1C1917); padding: 28px; } .ds-btn-light { display: inline-flex; align-items: center; justify-content: center; gap: 14px; min-height: 56px; padding: 0 30px; background: var(--paper, #FAFAF9); color: var(--ink, #1C1917); font: 500 .95rem/1 var(--font, 'Poppins', 'Segoe UI', system-ui, sans-serif); letter-spacing: .01em; text-decoration: none; border: 1px solid var(--paper, #FAFAF9); border-radius: 0; transition: background .25s, color .25s, border-color .25s; } .ds-btn-light:hover { background: var(--brass-hi, #E4B869); border-color: var(--brass-hi, #E4B869); } .ds-btn-light svg { flex: none; transition: transform .35s cubic-bezier(.16, 1, .3, 1); } .ds-btn-light:hover svg { transform: translateX(5px); } .ds-btn-light:focus-visible { outline: 2px solid var(--brass-hi, #E4B869); outline-offset: 3px; }"
+    },
+    {
+      "name": "Ghost Button",
+      "kind": "button",
+      "refersTo": "button-ghost",
+      "description": "Compact outlined action in the top bar; inverts on hover.",
+      "html": "<div class=\"ds-dark-ghost\"><a class=\"ds-btn-ghost\" href=\"#\">Conversar</a></div>",
+      "css": ".ds-dark-ghost { background: var(--ink, #1C1917); color: var(--on-dark, #FAFAF9); padding: 28px; } .ds-btn-ghost { display: inline-flex; align-items: center; justify-content: center; min-height: 44px; padding: 0 22px; background: transparent; color: inherit; font: 500 .88rem/1 var(--font, 'Poppins', 'Segoe UI', system-ui, sans-serif); letter-spacing: .01em; text-decoration: none; border: 1px solid currentColor; border-radius: 0; transition: background .25s, color .25s, border-color .25s; } .ds-btn-ghost:hover { background: var(--paper, #FAFAF9); border-color: var(--paper, #FAFAF9); color: var(--ink, #1C1917); } .ds-btn-ghost:focus-visible { outline: 2px solid var(--brass-hi, #E4B869); outline-offset: 3px; }"
+    },
+    {
+      "name": "Text Link",
+      "kind": "custom",
+      "description": "Secondary action: medium text over a 1px brass underline that drops on hover.",
+      "html": "<a class=\"ds-textlink\" href=\"#\">Como eu trabalho</a>",
+      "css": ".ds-textlink { display: inline-flex; align-items: center; min-height: 44px; font: 500 1rem/1.75 var(--font, 'Poppins', 'Segoe UI', system-ui, sans-serif); color: var(--ink, #1C1917); text-decoration: underline; text-decoration-color: var(--brass, #955A06); text-decoration-thickness: 1px; text-underline-offset: 7px; transition: text-underline-offset .3s cubic-bezier(.16, 1, .3, 1); } .ds-textlink:hover { text-underline-offset: 10px; } .ds-textlink:focus-visible { outline: 2px solid var(--ink, #1C1917); outline-offset: 3px; }"
+    },
+    {
+      "name": "Text Field",
+      "kind": "input",
+      "refersTo": "input",
+      "description": "Labelled field in the contact form; border darkens on hover and turns coffee-black on focus.",
+      "html": "<div class=\"ds-campo\"><label for=\"ds-nome\">Seu nome</label><input id=\"ds-nome\" type=\"text\"></div>",
+      "css": ".ds-campo { max-width: 420px; } .ds-campo label { display: block; margin-bottom: 9px; font: 500 .75rem/1.4 var(--font, 'Poppins', 'Segoe UI', system-ui, sans-serif); letter-spacing: .18em; text-transform: uppercase; color: var(--ink-2, #44403C); } .ds-campo input { display: block; width: 100%; font: 400 1rem/1.5 var(--font, 'Poppins', 'Segoe UI', system-ui, sans-serif); color: var(--ink, #1C1917); background: #fff; border: 1px solid var(--line, #D6D3D1); border-radius: 0; padding: 13px 14px; caret-color: var(--brass, #955A06); transition: border-color .2s; } .ds-campo input:hover { border-color: #A8A29E; } .ds-campo input:focus { border-color: var(--ink, #1C1917); } .ds-campo input:focus-visible { outline: 2px solid var(--ink, #1C1917); outline-offset: 3px; } .ds-campo input[aria-invalid=\"true\"] { border-color: #9B1C1C; }"
+    },
+    {
+      "name": "Choice Chips",
+      "kind": "chip",
+      "refersTo": "chip",
+      "description": "Radio choices as a two-column grid of square chips; selected fills coffee-black.",
+      "html": "<div class=\"ds-chips\"><label><input type=\"radio\" name=\"ds-i\" checked><span>Comprar</span></label><label><input type=\"radio\" name=\"ds-i\"><span>Vender</span></label><label><input type=\"radio\" name=\"ds-i\"><span>Avaliar</span></label><label><input type=\"radio\" name=\"ds-i\"><span>Só conversar</span></label></div>",
+      "css": ".ds-chips { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 8px; max-width: 420px; font-family: var(--font, 'Poppins', 'Segoe UI', system-ui, sans-serif); } .ds-chips label { position: relative; cursor: pointer; } .ds-chips input { position: absolute; opacity: 0; inset: 0; margin: 0; cursor: pointer; } .ds-chips span { display: flex; justify-content: center; align-items: center; min-height: 46px; padding: 0 12px; font-size: .9375rem; color: var(--ink, #1C1917); background: #fff; border: 1px solid var(--line, #D6D3D1); transition: background .2s, color .2s, border-color .2s; } .ds-chips label:hover span { border-color: #A8A29E; } .ds-chips input:checked + span { background: var(--ink, #1C1917); border-color: var(--ink, #1C1917); color: var(--paper, #FAFAF9); } .ds-chips input:focus-visible + span { outline: 2px solid var(--ink, #1C1917); outline-offset: 2px; }"
+    },
+    {
+      "name": "Top Bar",
+      "kind": "nav",
+      "refersTo": "topbar-solid",
+      "description": "Fixed 72px bar in its solid state: wordmark, anchor links with a drawn-in hairline, ghost action.",
+      "html": "<header class=\"ds-top\"><a class=\"ds-wordmark\" href=\"#\">Jessica Albuquerque</a><nav class=\"ds-nav\"><a href=\"#\">A corretora</a><a href=\"#\">Serviços</a><a href=\"#\">Método</a><a href=\"#\">Imóveis</a></nav><a class=\"ds-top-btn\" href=\"#\">Conversar</a></header>",
+      "css": ".ds-top { height: 72px; display: flex; align-items: center; justify-content: space-between; gap: 24px; padding-inline: 32px; background: var(--paper, #FAFAF9); color: var(--ink, #1C1917); border-bottom: 1px solid var(--line, #D6D3D1); font-family: var(--font, 'Poppins', 'Segoe UI', system-ui, sans-serif); } .ds-wordmark { display: inline-flex; align-items: center; min-height: 44px; font-weight: 500; font-size: .8125rem; letter-spacing: .24em; text-transform: uppercase; text-decoration: none; color: inherit; } .ds-nav { display: flex; gap: 32px; } .ds-nav a { display: inline-flex; align-items: center; min-height: 44px; font-size: .9rem; color: inherit; text-decoration: none; background: linear-gradient(currentColor, currentColor) 0 calc(100% - 10px) / 0 1px no-repeat; transition: background-size .4s cubic-bezier(.16, 1, .3, 1); } .ds-nav a:hover { background-size: 100% 1px; } .ds-top-btn { display: inline-flex; align-items: center; min-height: 44px; padding: 0 22px; font-weight: 500; font-size: .88rem; color: inherit; text-decoration: none; border: 1px solid currentColor; transition: background .25s, color .25s, border-color .25s; } .ds-top-btn:hover { background: var(--ink, #1C1917); border-color: var(--ink, #1C1917); color: var(--paper, #FAFAF9); } .ds-top a:focus-visible { outline: 2px solid var(--ink, #1C1917); outline-offset: 3px; }"
+    },
+    {
+      "name": "Service Index Row",
+      "kind": "custom",
+      "description": "Full-width link between hairlines: display-size service name, description, labelled arrow. Shifts right and turns the name brass on hover.",
+      "html": "<div class=\"ds-indice\"><a class=\"ds-linha\" href=\"#\"><h3>Comprar</h3><p>Busca dirigida e curadoria de imóveis que combinam com o seu perfil.</p><span class=\"ds-linha-ir\">Conversar <svg viewBox=\"0 0 24 24\" width=\"20\" height=\"20\" aria-hidden=\"true\"><path d=\"M4 12h15M13 6l6 6-6 6\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\" stroke-linecap=\"square\"/></svg></span></a></div>",
+      "css": ".ds-indice { background: var(--stone, #F1EEE9); padding: 0 28px; border-top: 1px solid var(--ink, #1C1917); font-family: var(--font, 'Poppins', 'Segoe UI', system-ui, sans-serif); } .ds-linha { display: grid; grid-template-columns: 5fr 5fr 2fr; column-gap: 24px; align-items: center; padding: 34px 0; border-bottom: 1px solid var(--line, #D6D3D1); color: var(--ink, #1C1917); text-decoration: none; transition: padding .45s cubic-bezier(.16, 1, .3, 1), border-color .3s; } .ds-linha h3 { margin: 0; font-weight: 300; font-size: clamp(2.2rem, 5.2vw, 4.4rem); line-height: 1; letter-spacing: -.045em; transition: color .3s; } .ds-linha p { margin: 0; max-width: 44ch; line-height: 1.75; color: var(--ink-2, #44403C); } .ds-linha-ir { justify-self: end; display: inline-flex; align-items: center; gap: 12px; min-height: 44px; font-weight: 500; font-size: .75rem; letter-spacing: .22em; text-transform: uppercase; } .ds-linha-ir svg { transition: transform .45s cubic-bezier(.16, 1, .3, 1); } .ds-linha:hover { padding-left: 16px; border-color: var(--ink, #1C1917); } .ds-linha:hover h3 { color: var(--brass, #955A06); } .ds-linha:hover .ds-linha-ir svg { transform: translateX(8px); } .ds-linha:focus-visible { outline: 2px solid var(--ink, #1C1917); outline-offset: 3px; }"
+    },
+    {
+      "name": "Numbered Step",
+      "kind": "custom",
+      "description": "One of four steps on coffee-black: translucent hairline, light lit-brass numeral, title, description.",
+      "html": "<div class=\"ds-passo\"><span class=\"ds-passo-n\">01</span><h3>Escuta</h3><p>Um encontro reservado para entender o seu momento e o que você espera do imóvel.</p></div>",
+      "css": ".ds-passo { background: var(--ink, #1C1917); color: var(--on-dark, #FAFAF9); padding: 28px; font-family: var(--font, 'Poppins', 'Segoe UI', system-ui, sans-serif); max-width: 320px; box-shadow: none; } .ds-passo-n { display: block; padding-top: 26px; border-top: 1px solid rgba(250, 250, 249, .28); font-weight: 300; font-size: clamp(2.4rem, 4.4vw, 3.8rem); line-height: 1; letter-spacing: -.04em; color: var(--brass-hi, #E4B869); font-variant-numeric: tabular-nums; } .ds-passo h3 { margin: 40px 0 0; font-weight: 500; font-size: 1.125rem; line-height: 1.3; letter-spacing: -.01em; } .ds-passo p { margin: .7rem 0 0; color: var(--on-dark-2, #CFC9C2); font-size: .9375rem; line-height: 1.7; }"
+    },
+    {
+      "name": "Principles List",
+      "kind": "custom",
+      "description": "Definition rows between hairlines: uppercase label column and a one-line description.",
+      "html": "<dl class=\"ds-principios\"><div><dt>Exclusivo</dt><dd>Atendimento pessoal e sem pressa, do começo ao fim.</dd></div><div><dt>Discreto</dt><dd>Sigilo sobre quem compra, quem vende e cada negociação.</dd></div></dl>",
+      "css": ".ds-principios { margin: 0; max-width: 560px; border-top: 1px solid var(--line, #D6D3D1); font-family: var(--font, 'Poppins', 'Segoe UI', system-ui, sans-serif); color: var(--ink, #1C1917); } .ds-principios div { display: grid; grid-template-columns: 9.5rem 1fr; gap: 16px; align-items: baseline; padding: 18px 0; border-bottom: 1px solid var(--line, #D6D3D1); } .ds-principios dt { font-weight: 500; font-size: .75rem; line-height: 1.6; letter-spacing: .22em; text-transform: uppercase; } .ds-principios dd { margin: 0; line-height: 1.75; color: var(--ink-2, #44403C); }"
+    }
+  ],
+  "narrative": {
+    "northStar": "The Lit House at Dusk",
+    "overview": "Every rule in this system is read off one photograph: the contemporary house the owner supplied (`public/assets/mansao.webp`), seen at dusk with its lights on. Its door and fascias give the coffee-black, its walls give the pale stone, its windows give the brass, and its architecture gives the straight lines and square corners. The site does not present a catalogue; the scroll walks the visitor up the path, the door swings open, warm light fills the frame, and the page is what is inside. This world replaced an earlier navy-and-gold version after the owner asked for a site that looked less like a template.\n\nThe personality is discreet, precise and warm. Large light type at tight tracking carries the voice; small uppercase labels at wide tracking do the naming; photography carries the atmosphere. Density is low: sections breathe at 88 to 200px of vertical padding, the 12-column grid is used asymmetrically, and hairlines do the dividing that boxes and cards would do elsewhere. Motion is one authored moment (the entrance) followed by stillness, with photographs unveiling as they enter view.\n\nTwo facts about the material must stay visible to anyone extending the system. Only the mansion photograph is the owner's; the five other photographs are Unsplash hotlinks used as illustrative placeholders. And two pieces of product data are unresolved and shown as visible `[a informar]` markers in the footer: the WhatsApp number and the CRECI registration.",
+    "keyCharacteristics": [
+      "One typeface, Poppins, self-hosted; hierarchy comes from weight (300, 400, 500) and tracking, never from a second family.",
+      "One accent, brass, in two values: dark brass on light surfaces, lit-window brass on dark ones.",
+      "Square corners everywhere (radius 0) and no shadows; depth is tonal and photographic.",
+      "Hairlines (1px) structure lists, indices and steps; there are no card containers.",
+      "A 12-column grid used off-centre: text and images deliberately do not mirror each other.",
+      "One signature interaction, the scroll-driven arrival through the front door, with a complete static fallback."
+    ],
+    "rules": [
+      { "name": "The Lit Window Rule", "body": "Brass means light or action. It appears where something is lit (the windows, the cue, the progress line) or where something can be done (hover, underline, focus). It never fills a section, a panel or a block of text.", "section": "colors" },
+      { "name": "The Two Brasses Rule", "body": "`brass` on light, `brass-hi` on dark. Dark brass on coffee-black and lit brass on warm white both fail contrast; neither is used that way anywhere in the build.", "section": "colors" },
+      { "name": "The Surface Focus Rule", "body": "Each surface declares its own focus colour: `ink` on light surfaces, `brass-hi` on dark ones (2px outline, 3px offset). A new dark section must set it.", "section": "colors" },
+      { "name": "The One Family Rule", "body": "Poppins only. A second typeface is not available to this system; contrast comes from the jump between weight 300 at display size and weight 500 at label size.", "section": "typography" },
+      { "name": "The Light and Tight Rule", "body": "Anything above 1.75rem is weight 300 with negative tracking between -0.03em and -0.045em. Large type is never medium or bold.", "section": "typography" },
+      { "name": "The Wide Label Rule", "body": "Uppercase is reserved for 0.75 to 0.875rem text at weight 500 with at least +0.18em tracking. Sentences are never set in uppercase.", "section": "typography" },
+      { "name": "The No Shadow Rule", "body": "Surfaces never lift. A panel separates from what is behind it by colour alone, as the warm-white form does on the veiled photograph.", "section": "elevation" },
+      { "name": "The Light Only Rule", "body": "A gradient is admissible when it is light falling or shade over a photograph. A gradient used to decorate a flat surface is not part of this system.", "section": "elevation" }
+    ],
+    "dos": [
+      "Do take every colour from the token set; a new surface is warm white, facade stone or coffee-black.",
+      "Do switch brass with the surface: `brass` on light, `brass-hi` on dark, and set the focus colour to match.",
+      "Do keep every corner square and every divider a 1px solid line.",
+      "Do set large type in Poppins 300 with negative tracking, and small naming text in Poppins 500 uppercase with at least +0.18em tracking.",
+      "Do place content on the 12-column grid off-centre, and collapse it to one column below 900px.",
+      "Do keep every tap target at 44px or taller and every paragraph under about 58ch.",
+      "Do label stock photography as illustrative until real material replaces it, and keep unresolved data (WhatsApp number, CRECI) as a visible marker rather than an invented value.",
+      "Do give any new motion a static equivalent under reduced motion, as the entrance and the photograph unveil both have."
+    ],
+    "donts": [
+      "Don't add a second typeface, or set large type in a weight above 300.",
+      "Don't round a corner or add a box-shadow; this system has neither.",
+      "Don't use a gradient on a flat surface. Gradients here are light, or shade over a photograph.",
+      "Don't fill a section, panel or paragraph with brass, or introduce a second accent hue.",
+      "Don't wrap content in bordered or tinted cards; rows between hairlines and unframed photographs do that work.",
+      "Don't add a second authored scroll sequence; after the entrance the page is still except for photographs unveiling.",
+      "Don't present the mansion photograph or any stock image as a property for sale."
+    ]
+  }
+}
