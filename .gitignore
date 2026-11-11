@@ -4,3 +4,7 @@ node_modules
 .impeccable/questions/
 .DS_Store
 Thumbs.db
+
+.vercel
+.env*
+.impeccable/hook.cache.json
