@@ -36,6 +36,10 @@ Se a foto for trocada, ajuste em `styles.css` a posição da porta (`.cam`, `.va
 | Fotos das seções | as imagens do Unsplash em `index.html` são ilustrativas |
 | Textos | revisar com a Jessica; nenhum número, depoimento ou imóvel real foi inventado |
 
+## Ao alterar o CSS ou o JS
+
+Aumente o número em `styles.css?v=5` e `script.js?v=5` no `index.html`. Isso garante que quem já visitou o site receba os arquivos novos junto com a página nova.
+
 ## Rodar localmente
 
 ```bash
