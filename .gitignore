@@ -1,0 +1,6 @@
+.vercel
+node_modules
+.impeccable/review/
+.impeccable/questions/
+.DS_Store
+Thumbs.db

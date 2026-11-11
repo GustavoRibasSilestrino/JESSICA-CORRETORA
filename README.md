@@ -1,0 +1,43 @@
+# Jessica Albuquerque · Corretora de imóveis de alto padrão
+
+Site de página única, estático (HTML, CSS e um arquivo pequeno de JavaScript), publicado na Vercel a partir da pasta `public/`.
+
+## Estrutura
+
+```
+public/
+  index.html        conteúdo e marcação
+  styles.css        todo o visual (fonte Poppins)
+  script.js         câmera do scroll, revelações e formulário do WhatsApp
+  favicon.svg
+  assets/mansao.webp   foto da entrada (1672 x 941)
+vercel.json         publica a pasta public/
+PRODUCT.md          contexto do produto (não é publicado)
+```
+
+## A entrada
+
+A primeira parte da página é uma cena presa na tela. Conforme o scroll avança, a foto cresce a partir da porta, a folha da porta gira e a luz toma a tela até o site aparecer. Quem usa "reduzir movimento" no sistema, ou navega sem JavaScript, cai direto no site.
+
+Se a foto for trocada, ajuste em `styles.css` a posição da porta (`.cam`, `.vao`, `.folha`) e em `script.js` as constantes `FOTO`, `PORTA_L` e `PORTA_A`.
+
+## O que ainda precisa de dados reais
+
+| Item | Onde trocar |
+| --- | --- |
+| Número do WhatsApp | `data-whatsapp` no `<body>` de `index.html` e os links `wa.me/5515900000000` (buscar e substituir) |
+| CRECI | rodapé de `index.html`, onde está `[a informar]` |
+| Fotos das seções | as imagens do Unsplash em `index.html` são ilustrativas |
+| Textos | revisar com a Jessica; nenhum número, depoimento ou imóvel real foi inventado |
+
+## Rodar localmente
+
+```bash
+npx serve public
+```
+
+## Publicar
+
+```bash
+npx vercel --prod
+```
